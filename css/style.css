@@ -1,0 +1,39 @@
+/* =========== common Css Start =========== */
+:root{
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font:'PT Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li{
+    margin:0;
+}
+a,a:hover{
+
+    text-decoration: none;
+}
+ul,
+ol{
+    list-style-type: none;
+}
+input,
+.form-conttol:focus{
+    outline:0;
+    box-shadow:none;
+}
+body{
+font-family:var(--primary-font);
+
+}
+h1,h2,h3{
+    font-family:var(--secondary-font);
+}
+
+/* =========== common Css End =========== */
